@@ -26,11 +26,11 @@ public class ExcelAnalysis {
 		Sheet sheet;
 		Row row;
 		String cell;
-		// »ñÈ¡sheetµÄÊýÁ¿
+		// èŽ·å¾—sheetçš„ä¸ªæ•°
 		int sheetNo = xwb.getNumberOfSheets();
 		for (int i = 0; i < sheetNo; i++) {
 			sheet = xwb.getSheetAt(i);
-			// Ñ­»·Êä³ö±í¸ñÖÐµÄÄÚÈÝ
+			// å¾ªçŽ¯è¯»å–å†…å®¹
 			for (int j = sheet.getFirstRowNum(); j < sheet.getPhysicalNumberOfRows(); j++) {
 				row = sheet.getRow(j);
 				for (int k = row.getFirstCellNum(); k < row.getPhysicalNumberOfCells(); k++) {

@@ -13,7 +13,7 @@ public class Test {
 			t.setRawOffset(0);
 			sdf.setTimeZone(t);
 			Long startTime = System.currentTimeMillis();
-			// ¼ì²â´úÂë
+			//è¾“å‡ºå†…å®¹
 			try {
 				ExcelAnalysis excelAnalysis = new ExcelAnalysis("test.xlsx");
 				excelAnalysis.readExcel(1L);
@@ -21,7 +21,7 @@ public class Test {
 
 			}
 			Long endTime = System.currentTimeMillis();
-			System.out.println("ÓÃÊ±£º" + sdf.format(new Date(endTime - startTime)));
+			System.out.println("ï¿½ï¿½Ê±ï¿½ï¿½" + sdf.format(new Date(endTime - startTime)));
 		}
 
 	}
