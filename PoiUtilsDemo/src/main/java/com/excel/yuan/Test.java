@@ -14,7 +14,7 @@ public class Test {
 		// 输出内容
 		try {
 			ExcelAnalysis excelAnalysis = new ExcelAnalysis("test.xlsx");
-			excelAnalysis.readExcel(1L);
+			excelAnalysis.readExcel();
 		} catch (Exception ex) {
 
 		}
