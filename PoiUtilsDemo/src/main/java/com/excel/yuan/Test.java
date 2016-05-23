@@ -21,7 +21,7 @@ public class Test {
 
 			}
 			Long endTime = System.currentTimeMillis();
-			System.out.println("��ʱ��" + sdf.format(new Date(endTime - startTime)));
+			System.out.println("用时" + sdf.format(new Date(endTime - startTime)));
 		}
 
 	}
