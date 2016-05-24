@@ -22,7 +22,7 @@ public class ExcelAnalysis {
 		}
 	}
 
-	public void readExcel(Long... useSheet) throws IOException, EncryptedDocumentException, InvalidFormatException {
+	public void readExcel() throws IOException, EncryptedDocumentException, InvalidFormatException {
 		Sheet sheet;
 		Row row;
 		String cell;
