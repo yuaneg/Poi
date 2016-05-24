@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelAnalysis {
 	private Workbook xwb;
-
+	
 	public ExcelAnalysis(String name) {
 		InputStream input = ExcelAnalysis.class.getResourceAsStream("/" + name);
 		try {
